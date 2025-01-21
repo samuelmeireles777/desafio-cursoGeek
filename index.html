@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="/styles/reset.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalho__Fonte">AluraGeek</h1>
+    </header>
+    <main class="config__main">
+        <div class="novo__ProdutoArea">
+            <h2 class="produto__Fonte">Adicionar Produto:</h2>
+            <form class="formulario__Part" data-Formulario="">
+                <input  type="text" placeholder="Nome..." id="inputNome" data-Nome required>
+                <input  type="text" placeholder="Valor..." id="inputTexto" data-Preco required>
+                <input  type="url" placeholder="Imagem (URL)..." data-Imagem  id="inputUrl"required>
+                <button class="botao__Fonte" type="submit" id="botaoEnviar">Guardar</button >
+                <button class="botao__Fonte" type="reset" id="botaoLimpar">Limpar</button>
+            </form>
+        </div>
+        <section class="produtos__loja">
+            <div class="prateleira">
+                <h2 class="fonte__prateleira">MEUS PRODUTOS</h2>
+                <div class="prateleira__Andar" data-prateleira>                             
+                    <div class="produtos__itens">
+                        <img class="imagemLoja" src="/stromnaoseioq.png" alt="Produto">
+                        <h3 class="fonte__itens" >Stormtrooper</h3>
+                        <p>R$ 60,00</p>
+                        <button class="delete">🗑</button>
+                    </div>
+                    <div class="produtos__itens" id=>
+                        <img class="imagemLoja" src="/joguinho.png" alt="Produto">
+                        <h3 class="fonte__itens">Game Boy Classic</h3>
+                        <p>R$ 60,00</p>
+                        <button class="delete">🗑</button>
+                    </div>
+                    <div class="produtos__itens">
+                        <img class="imagemLoja" src="/stromnaoseioq.png" alt="Produto">
+                        <h3 class="fonte__itens">Stormtrooper</h3>
+                        <p>R$ 60,00</p>
+                        <button class="delete">🗑</button>
+                    </div>
+                </div>
+                <div class="prateleira__Andar">   
+                    <div class="produtos__itens">
+                        <img class="imagemLoja" src="/joguinho.png" alt="Produto">
+                        <h3 class="fonte__itens">Game Boy Classic</h3>
+                        <p>R$ 60,00</p>
+                        <button class="delete">🗑</button>
+                    </div>
+                    <div class="produtos__itens">
+                        <img class="imagemLoja" src="/stromnaoseioq.png" alt="Produto">
+                        <h3 class="fonte__itens">Stormtrooper</h3>
+                        <p>R$ 60,00</p>
+                        <button class="delete">🗑</button>
+                    </div>
+                    <div class="produtos__itens">
+                        <img class="imagemLoja" src="/joguinho.png" alt="Produto">
+                        <h3 class="fonte__itens">Game Boy Classic</h3>
+                        <p>R$ 60,00</p>
+                        <button class="delete">🗑</button>
+                    </div>
+                </div> 
+                <div class="prateleira__Andar">
+                    <div class="produtos__itens">
+                        <img class="imagemLoja" src="joguinho.png" alt="Produto">
+                        <h3 class="fonte__itens">Game Boy Classic</h3>
+                        <p>R$ 60,00</p>
+                        <button class="delete">🗑</button>
+                    </div>
+                    <div class="produtos__itens">
+                        <img class="imagemLoja" src="/stromnaoseioq.png" alt="Produto">
+                        <h3 class="fonte__itens">Stormtrooper</h3>
+                        <p>R$ 60,00</p>
+                        <button class="delete">🗑</button>
+                    </div>
+                    <div class="produtos__itens">
+                        <img class="imagemLoja" src="/joguinho.png" alt="Produto">
+                        <h3 class="fonte__itens">Game Boy Classic</h3>
+                        <p>R$ 60,00</p>
+                        <button class="delete">🗑</button>
+                    </div>
+                </div>    
+            </div>
+        </section>
+    </main>
+    <footer class="rodape">
+        <h4 class="fonteRodape">AluraGeek</h4>
+        <p class="fonteRodapeP">DESENVOLVIDO POR [SEU NOME]</p>
+        <p  class="fonteRodapeP2">ALURA LATAM - 2024</p>
+    </footer>
+    <script src="/js/atualizarProdutos.js" type="module"></script>
+</body>
+
+</html>
+

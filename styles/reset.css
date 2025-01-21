@@ -1,0 +1,28 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
+img, picture, video, canvas, svg {
+  display: block; /* Remove o espaço indesejado ao lado de elementos */
+  
+}
+
+input, button, textarea, select {
+  font: inherit; /* Faz com que usem a mesma fonte do body */
+}
+
+a {
+  text-decoration: none; /* Remove sublinhado padrão */
+  color: inherit; 
+}
+
+

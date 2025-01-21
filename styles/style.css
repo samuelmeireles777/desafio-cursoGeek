@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+
+
+body,html {
+   
+    box-sizing: border-box;
+    overflow-x: hidden;
+    width: 1440px;
+    height: 1625px;
+    margin: 0%;
+    padding: 0%;
+    background-color: #FFFFFF;
+    color: #000;
+
+}
+
+header {
+    background-color: #5D2AA8;
+    color: #FFF;
+    text-align: center;
+}
+.coracao{ 
+    display: grid;
+    grid-template-columns: repeat(7, 20px); /* 7 colunas, cada pixel com 20x20px */
+    grid-gap: 2px; /* Espaço entre os pixels */
+    justify-content: center;
+    background-color: red;
+} 
+h1 {
+    margin: 0;
+}
+
+.config__main {
+    width: 1380px;
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    
+}
+
+.novo__ProdutoArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 34.2%;
+    height:  41.85%;
+    top: 125px;
+    right: 0;
+    gap: 40px;
+    background-color: #EFEFEF;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    
+}
+.formulario__Part{
+    column-gap: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+}
+
+.novo__ProdutoArea input {
+    width: 83%;
+    height: 11%;
+    border: 3px solid #1b0981;
+    border-radius: 30px;
+    font-family:'IBM Plex Mono', monospace;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+input::placeholder {
+    color:#5D2AA8;
+  }
+  
+
+.novo__ProdutoArea button {
+    width: 40%;
+    height: 12.5%;
+    background-color: #5D2AA8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.novo__ProdutoArea button:hover {
+    background-color: #4A2285;
+}
+
+.produtos__loja {
+
+    width: 54.93%;
+    height: 90%;
+    bottom: 0; 
+    left: 0; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+}
+.prateleira{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-content: space-around;
+    left: 39px;
+    width: 89.5%;
+    height: 87.36%;
+    position: absolute;
+}
+
+.prateleira__Andar{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    position: relative;
+    left: 38px;
+}
+
+.produtos__itens {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    width:  25.95%;
+    height:81.31% ;
+    background-color: #5D2AA8;
+    border: 1px solid #CCC;
+    border-radius: 8px;
+    text-align: center;
+    padding: 5px;
+    position: relative;
+}
+
+
+
+.delete {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 208px;
+    right: 0px;
+    background: none;
+    border: none;
+    color: darkgray;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.rodape {
+    width: 100%;
+    height: 232px;
+    background-color: #5D2AA8;
+    color: #FFF;
+    text-align: center;
+    
+}
+/*estilizando as fontes*/
+.cabecalho__Fonte{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 500;
+    font-size: 24px;
+
+}
+
+.produto__Fonte{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 500;
+}
+.botao__Fonte{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+}
+.fonte__prateleira{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 500;
+    font-size: 24px;
+}
+.fonteRodape{
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 600;
+    font-size: 24px;
+}
+.fonteRodapeP{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 16px;
+}
+.fonteRodapeP2{
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 200;
+    font-size: 16px;
+}
+.imagemLoja{
+  width: 99%;
+  height: 72%;
+}
+  
