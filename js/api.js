@@ -1,5 +1,5 @@
 export const apiLoja = {
-  // Pega todos os produtos da API
+ 
   async produtoServer() {
     try {
       const response = await fetch('http://localhost:3000/products');
@@ -12,7 +12,7 @@ export const apiLoja = {
     }
   },
 
-  // Adiciona um novo produto à API
+ 
   async adicionarProduto(image, name, price) {
     try {
       const response = await fetch("http://localhost:3000/products", {
@@ -29,13 +29,13 @@ export const apiLoja = {
       if (!response.ok) {
         throw new Error("Erro ao adicionar produto");
       }
-      return await response.json(); // Retorna o produto recém-criado
+      return await response.json();
     } catch (error) {
       console.error("Erro ao adicionar produto:", error);
     }
   },
 
-  // Deleta um produto pela ID
+
   async deletarProduto(id) {
     try {
       const response = await fetch(`http://localhost:3000/products/${id}`, {
@@ -45,41 +45,13 @@ export const apiLoja = {
       if (!response.ok) {
         throw new Error("Erro ao deletar produto");
       }
-      return true; // Se a resposta for bem-sucedida
+      return true; 
     } catch (error) {
       console.error("Erro ao deletar produto:", error);
-      return false; // Retorna falso se houver erro
+      return false; 
     }
   }
 };
 
 
 
-
-/* async function adicionarProduto(image,name,price){
-  try{
-   const adicionar = await fetch("http://localhost:3000/products", {
-    method:"POST",
-    headers:{
-      "content-type": "application/json"
-    },
-    body: JSON.stringify({
-      image:image,
-      name:name,
-      price:price,
-    })
-
-   })
-   const formatoJson = await adicionar.json()
-   return formatoJson
-  }
-  catch(erro){
-  console.error("deu erro");
-  }
-}
-
-export const apiLoja ={
-   produtoServer,
-   adicionarProduto,
-
-}*/

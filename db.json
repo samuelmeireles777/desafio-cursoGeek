@@ -1,3 +1,40 @@
 {
-  "products": []
+  "products": [
+    {
+      "image": "https://img.odcdn.com.br/wp-content/uploads/2021/05/shutterstock_1855958302.jpg",
+      "name": "playstation",
+      "price": "60.00",
+      "id": 1
+    },
+    {
+      "image": "https://img.odcdn.com.br/wp-content/uploads/2021/05/shutterstock_1855958302.jpg",
+      "name": "playstation",
+      "price": "60.00",
+      "id": 2
+    },
+    {
+      "image": "https://img.odcdn.com.br/wp-content/uploads/2021/05/shutterstock_1855958302.jpg",
+      "name": "playstation",
+      "price": "60.00",
+      "id": 3
+    },
+    {
+      "image": "https://img.odcdn.com.br/wp-content/uploads/2021/05/shutterstock_1855958302.jpg",
+      "name": "playstation",
+      "price": "60.00",
+      "id": 20
+    },
+    {
+      "image": "https://img.odcdn.com.br/wp-content/uploads/2021/05/shutterstock_1855958302.jpg",
+      "name": "playstation",
+      "price": "60.00",
+      "id": 21
+    },
+    {
+      "image": "https://img.odcdn.com.br/wp-content/uploads/2021/05/shutterstock_1855958302.jpg",
+      "name": "playstation",
+      "price": "60.00",
+      "id": 22
+    }
+  ]
 }
